@@ -9,6 +9,10 @@
 
 .App-header {
   background-color: #1a50ca;
+  background-image: url('./1.jpg');
+
+  background-size: cover;
+  background-position: center;
   height: 340px;
   padding: 20px;
   color: white;

@@ -13,5 +13,5 @@ export default class Titulo extends React.Component {
 
 
 export function chundo(){
-  return "segundo espana";
+  return "segundo españa";
 }
