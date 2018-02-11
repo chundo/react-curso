@@ -4,6 +4,10 @@ import logo from './pecademy.png';
 import './App.css';
 import Titulo from './components/Titulo';
 import { chundo } from './components/Titulo';
+import { BrowserRouter as Router, Route, Link} from  'react-router-dom';
+import Signin from './components/Signin';
+import Welcome from './components/Welcome';
+
 
 
 class App extends Component { //Test de componente
@@ -31,6 +35,17 @@ class App extends Component { //Test de componente
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        
+          <Router>
+            <div>
+              <Route exact path='/' component={Signin} />
+              <Route exact path='/welcome' component={Welcome} />
+            </div>
+          </Router>
+        <div>
+          hola
+        </div>
+
       </div>
     );
   }

@@ -12,7 +12,12 @@ class Signin extends Component {
 
 		fetch("http://localhost:3001/tokens",
 		{method: 'POST', body: formData})	
-		.then(res => res.json()).then(res => console.log(res.jwt))
+		.then(res => res.json()).then(res => (console.log(res.jwt),
+		window.localStorage.setItem('jwt', res.jwt)
+		))
+		.then(()=> this.props.history.push('/welcome'))
+		.catch(function(error){console.log('Este es un error': error.message)});
+
 	}
 
 	render() {
