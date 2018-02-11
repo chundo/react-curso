@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=UF4FVYjjxjs (React and Rails: Setup)
+https://www.youtube.com/watch?v=SGkTvKRPYrk&list=PL5VAKH-U1M6dj84BApfUtvBjvF-0-JfEU (Reacjt on rails completo)
+https://www.youtube.com/watch?v=uBZGalgS-U8 (React + Rails)
+https://www.youtube.com/watch?v=TimLV6Sq7kw (rails + react + autentification)
+https://www.youtube.com/watch?v=Ow8XekUOX4g (jwt)
+https://www.youtube.com/watch?v=M0WUM_XPaII (DEMO react_on_rails)
+https://www.youtube.com/watch?v=0zZsjykBIMU&list=PLrPCFbeEPbr4VR81ev_m36ItAl9KZjCXv (cursos)
